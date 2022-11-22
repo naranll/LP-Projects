@@ -1,0 +1,38 @@
+body {
+  background-color: #eee2dc;
+  margin: 0;
+}
+
+div {
+  margin: 100px 0;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  border: none;
+  color: #eee2dc;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.onclick {
+  background-color: #ac3b61;
+  transition: width 2s ease-in-out;
+}
+
+.onclick:active {
+  width: 100%;
+}
+
+.onhover {
+  background-color: #123c69;
+  transition: width 2s ease-in-out;
+}
+
+.onhover:hover {
+  width: 100%;
+}
