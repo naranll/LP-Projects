@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Club</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h4>Welcome to the 24x7 Fitness Club: Courts Reservation Page!!</h4>
+    <form>
+      <fieldset>
+        <legend>Member Demographics</legend>
+        <div>
+          <label>Name <input type="text" required /> </label>
+        </div>
+        <label>Are you a member?</label>
+        <div>
+          <input type="radio" name="member" value="Member" required />
+          <label>Member</label>
+          <input type="radio" name="member" value="Non-member" required />
+          <label>Non-member</label>
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" required />
+        </div>
+      </fieldset>
+      <label for="facil"
+        >Facility
+        <select type="choose" name="facil" required>
+          <option>Badminton</option>
+          <option>Running track</option>
+          <option>Swimming</option>
+        </select>
+      </label>
+      <label>Select a reservation date and time:</label>
+      <div>
+        <input type="date" required />
+        <input type="time" required />
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label>I agree to the club's reservation policy</label>
+      </div>
+      <input type="button" value="SUBMIT" required />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+h4 {
+  color: #fff;
+  background-color: rgb(164, 31, 109);
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(204, 204, 238);
+  border: 3px dashed rgb(181, 9, 9);
+}
+
+fieldset {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}

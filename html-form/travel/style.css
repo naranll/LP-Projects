@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p {
+    margin: 2px;
+}
+
+input {
+    border-top: 1.5x solid;
+    border-left: 1.5px solid;
+}
+
+.check {
+    border-radius: 3px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+}
+
+#comp {
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+}

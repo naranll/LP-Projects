@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel form (form1)</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandatory</h3>
+      </header>
+      <form>
+        <label>
+          <p>Full name*:</p>
+          <input type="text" placeholder="FirstName LastName" required />
+        </label>
+        <label>
+          <p>Email address*:</p>
+          <input type="email" placeholder="EMAIL_ADDRESS" required />
+        </label>
+        <label>
+          <p>Select Tour Package*:</p>
+          <select type="choose" id="opt" required>
+            <option>Goa</option>
+            <option>Goa1</option>
+            <option>Goa2</option>
+          </select>
+        </label>
+        <label>
+          <p>Arrival date*:</p>
+          <input type="date" id="date" required />
+        </label>
+        <label>
+          <p>Number of people*:</p>
+          <input type="number" placeholder="unknown_type" required />
+        </label>
+        <div class="choice">
+          <p>What would you want to avail*:</p>
+          <div>
+            <label>Boarding</label>
+            <input type="radio" class="check" name="avail" required />
+          </div>
+          <div>
+            <label>Fooding</label>
+            <input type="radio" class="check" name="avail" required />
+          </div>
+          <div>
+            <label>Sight seeing</label>
+            <input type="radio" class="check" name="avail" required />
+          </div>
+        </div>
+        <label>
+          <p>Discount Coupon code:</p>
+          <input type="text" placeholder="unknown_type" />
+        </label>
+        <label>
+          <p>Terms and conditions*</p>
+          <input type="radio" name="terms" required />
+          <span>I agree</span>
+          <input type="radio" name="terms" required />
+          <span>I disagree</span>
+        </label>
+        <div>
+          <input type="submit" id="comp" value="Complete reservation" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
