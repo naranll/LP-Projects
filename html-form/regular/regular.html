@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regular Form</title>
+    <link href="./regular.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Hi form</legend>
+        <table>
+          <tr>
+            <td class="sorting">Нэр</td>
+            <td>
+              <input type="text" name="firstname"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Овог</td>
+            <td>
+              <input type="text" name="surname"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">И-мэйл</td>
+            <td>
+              <input type="email" name="email"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Утас</td>
+            <td>
+              <input type="tel" name="telephone" />
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Нас</td>
+            <td>
+              <input type="number" name="age"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Төрсөн өдөр</td>
+            <td>
+              <input type="date" name="birthday"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Хүйс</td>
+            <td>
+              <select name="gender">
+                <option value="" disabled selected>Сонгох...</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Тодорхойлолт</td>
+            <td>
+              <textarea rows="10" cols="30"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="sorting">Сурагч эсэх</td>
+            <td><input type="checkbox" id="checkme" />Тийм</td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    
+}
+
+form {
+    margin: 0 auto;
+}
+
+table {
+    margin-right: 200px;
+}
+
+.sorting {
+    text-align: right;
+    vertical-align: bottom;
+    font-weight: 600;
+}
+
+td {
+    padding: 5px;
+}
+
