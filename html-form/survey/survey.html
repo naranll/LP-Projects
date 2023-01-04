@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link href="./survey.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Social media users survey</h1>
+      <h4>Thank you for taking our survey</h4>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend><h3>General Info</h3></legend>
+          <div>
+            <h4>Name</h4>
+            <input type="text" placeholder="Name" class="inputSqr" required />
+          </div>
+
+          <div>
+            <h4>Email</h4>
+            <input
+              type="email"
+              placeholder="exmaple@mail.com"
+              class="inputSqr"
+              required
+            />
+          </div>
+
+          <div>
+            <h4>Age</h4>
+            <input
+              type="number"
+              placeholder="--"
+              min="14"
+              max="99"
+              class="inputSqr"
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><h3>Social Media</h3></legend>
+          <div>
+            <h4>How long do you use social media daily?</h4>
+            <select class="inputSqr">
+              <option>Less than 1hr</option>
+              <option>1-2hr</option>
+              <option>3-4hr</option>
+              <option>5-6hr</option>
+              <option>7-8hr</option>
+            </select>
+          </div>
+
+          <div>
+            <h4>
+              Online shopping or visiting the shop, which one do you prefer?
+            </h4>
+            <input
+              type="radio"
+              value="onlineShop"
+              id="onlineShop"
+              name="shop"
+              required
+            />
+            <label for="onlineShop">Online shopping</label><br />
+            <input type="radio" value="realShop" id="realShop" name="shop" />
+            <label for="realShop">Traditional shopping</label>
+          </div>
+
+          <div>
+            <h4>
+              Online shopping or visiting the shop, which one do you prefer?
+            </h4>
+            <input type="checkbox" value="fbook" id="fbook" name="fbook" />
+            <label for="fbook">Facebook</label><br />
+
+            <input type="checkbox" value="insta" id="insta" name="insta" />
+            <label for="insta">Instagram</label> <br />
+
+            <input type="checkbox" value="twit" id="twit" name="twit" />
+            <label for="twit">Twitter</label> <br />
+
+            <input type="checkbox" value="reddit" id="reddit" name="reddit" />
+            <label for="reddit">Reddit</label> <br />
+
+            <input type="checkbox" value="snap" id="snap" name="snap" />
+            <label for="snap">Snapchat</label> <br />
+
+            <input type="checkbox" value="quora" id="quora" name="quora" />
+            <label for="quora">Quora</label> <br />
+
+            <input type="checkbox" value="ytube" id="ytube" name="ytube" />
+            <label for="ytube">Youtube</label> <br />
+            
+            <input type="checkbox" value="others" id="others" name="others" />
+            <label for="others">Others</label>
+          </div>
+        </fieldset>
+
+        <div id="suggestBox">
+          <h3>Suggestions</h3>
+          <textarea
+            maxlength="300"
+            rows="5"
+            placeholder="Write your suggestions here..."
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

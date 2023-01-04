@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+h4, h3, h1 {
+    margin: 4px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"),
+    linear-gradient(to right, rgba(190, 103, 102, 0.973), rgba(103, 81, 150, 0.9)); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    /* background-color: rgba(100, 77, 150, 0.544); */
+    background-color: rgba(103, 81, 150, 0.6);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50vw;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgba(71, 0, 129, 0.159);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputSqr {
+    width: 100%;
+    height: 30px;
+}
+
+#suggestBox {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    height: 35px;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
