@@ -9,25 +9,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
+form {
     display: flex;
 }
 
-main div{
-    padding: 30px;
+form div {
+    
     height: 500px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-form {
+.inputsContainer {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-form input {
+.inputsContainer input {
     height: 30px;
     border: none;
     border-bottom: 1px solid rgb(224, 224, 224);
@@ -45,10 +45,11 @@ select {
 .generalInfo {
     background-color: #fff;
     border-radius: 15px 0 0 15px;
+    padding: 30px;
 }
 
 .generalInfo h2{
-    color: rgb(58, 58, 193);
+    color:  rgb(38, 84, 157);
 }
 
 .generalInfo input {
@@ -59,6 +60,7 @@ select {
     background-color: rgb(58, 58, 193);
     border-radius: 0 15px 15px 0;
     color:white;
+    padding: 30px;
 }
 
 .contactDetails h2{
