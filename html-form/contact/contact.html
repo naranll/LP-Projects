@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link href="./contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="generalInfo">
+        <h2>General Information</h2>
+        <form>
+          <label>
+            <input type="text" placeholder="First Name" required />
+            <input type="text" placeholder="Last Name" required />
+          </label>
+          <input type="email" placeholder="Email" required />
+          <input type="date" />
+          <input type="text" placeholder="Company" required />
+
+          <select required>
+            <option selected hidden>Position</option>
+            <option>Project Manager</option>
+            <option>Software Engineer</option>
+            <option>Human Resource</option>
+          </select>
+
+        </form>
+      </div>
+
+      <div class="contactDetails">
+        <h2>Contact Details</h2>
+        <form>
+          <input type="text" placeholder="Street" required />
+          <input type="text" placeholder="Additional Information" required />
+          <label class="rowInput">
+            <input type="number" placeholder="Zip Code" required />
+            <select required>
+              <option class="sel" selected hidden>Place</option>
+              <option>Place1</option>
+              <option>Place2</option>
+            </select>
+          </label>
+
+          <select required>
+            <option selected hidden>Country</option>
+            <option>Country1</option>
+            <option>Country2</option>
+          </select>
+
+          <label class="rowInput">
+            <input type="number" placeholder="Code" required />
+            <input type="tel" placeholder="Phone Number" required />
+          </label>
+          <label id="termsLabel">
+            <input type="checkbox" id="terms" name="terms" required />
+            <p>
+              I do accept the <a href="#">Terms and Conditions</a> of your site
+            </p>
+          </label>
+          <button type="submit">Register Badge</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

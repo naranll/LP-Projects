@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(137, 176, 223);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+main div{
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    background-color: inherit;
+    padding: 3px;
+}
+
+select {
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.generalInfo {
+    background-color: #fff;
+    border-radius: 15px 0 0 15px;
+}
+
+.generalInfo h2{
+    color: rgb(58, 58, 193);
+}
+
+.generalInfo input {
+    color: grey;
+}
+
+.contactDetails {
+    background-color: rgb(58, 58, 193);
+    border-radius: 0 15px 15px 0;
+    color:white;
+}
+
+.contactDetails h2{
+    color: #fff;
+}
+
+.contactDetails input::placeholder {
+    color: #fff;
+}
+
+.contactDetails select {
+    color: #fff;
+}
+
+.contactDetails select option {
+    color: rgb(58, 58, 193);
+}
+
+p a {
+    color: inherit;
+}
+
+#termsLabel {
+    font-size: 12px;
+    display: flex;
+}
+
+.rowInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.rowInput input, .rowInput select{
+    width: 45%;
+}
+
+button {
+    width: 35%;
+    height: 36px;
+    border-radius: 20px;
+}
