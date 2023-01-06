@@ -98,45 +98,43 @@ console.log("remainder of given 2 numbers is ", num1 % num2);
 console.log("==========================================");
 
 //23. baby shark
-let line1 = "Baby Shark, doo-doo, doo-doo";
-let line2 = "Baby Shark";
-let line3 = "Mommy Shark, doo-doo, doo-doo";
-let line4 = "Mommy Shark";
-let line5 = "Daddy Shark, doo-doo, doo-doo";
-let line6 = "Daddy Shark";
-let line7 = "Grandma Shark, doo-doo, doo-doo";
-let line8 = "Grandma Shark";
-let line9 = "Grandpa Shark, doo-doo, doo-doo";
-let line10 = "Grandpa Shark";
-let line11 = "Let's go hunt, doo-doo, doo-doo";
-let line12 = "Let's go hunt";
 
-console.log(line1);
-console.log(line1);
-console.log(line1);
-console.log(line2);
+let baby = "Baby Shark";
+let mommy = "Mommy Shark";
+let daddy = "Daddy Shark";
+let grandma = "Grandma Shark";
+let grandpa = "Grandpa Shark";
+let hunt = "Let's go hunt";
+let doo = "doo-doo, doo-doo";
 
-console.log(line3);
-console.log(line3);
-console.log(line3);
-console.log(line4);
+console.log(baby + ", " + doo);
+console.log(baby + ", " + doo);
+console.log(baby + ", " + doo);
+console.log(baby);
 
-console.log(line5);
-console.log(line5);
-console.log(line5);
-console.log(line6);
+console.log(mommy + ", " + doo);
+console.log(mommy + ", " + doo);
+console.log(mommy + ", " + doo);
+console.log(mommy);
 
-console.log(line7);
-console.log(line7);
-console.log(line7);
-console.log(line8);
+console.log(daddy + ", " + doo);
+console.log(daddy + ", " + doo);
+console.log(daddy + ", " + doo);
+console.log(daddy);
 
-console.log(line9);
-console.log(line9);
-console.log(line9);
-console.log(line10);
+console.log(grandma + ", " + doo);
+console.log(grandma + ", " + doo);
+console.log(grandma + ", " + doo);
+console.log(grandma);
 
-console.log(line11);
-console.log(line11);
-console.log(line11);
-console.log(line12);
+console.log(grandpa + ", " + doo);
+console.log(grandpa + ", " + doo);
+console.log(grandpa + ", " + doo);
+console.log(grandpa);
+
+console.log(hunt + ", " + doo);
+console.log(hunt + ", " + doo);
+console.log(hunt + ", " + doo);
+console.log(hunt);
+
+
