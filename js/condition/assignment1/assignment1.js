@@ -57,8 +57,8 @@ alert("It's " + dayName);
 
 //5.
 let hours = prompt("Enter working hours: "), 
-    ratePerHour = 28;
-alert("Salary: $" + hours * ratePerHour);
+    ratePerHour = prompt("Enter rate per hour: ($)");
+alert("Salary ($" + ratePerHour +"per hr ): $" + hours * ratePerHour);
 
 
 
